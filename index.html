@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teror di Layar Perak: Menjelajahi Evolusi Film Horor Indonesia</title>
+    <link rel="icon" type="image/png" href="assets/images/rekadwipa-logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="horror-bg-overlay"></div>
+    
+    <!-- Fullscreen Toggle Button -->
+    <button id="fullscreen-toggle" class="fullscreen-btn" title="Toggle Fullscreen">
+        <span class="fullscreen-icon">⛶</span>
+        <span class="fullscreen-text">Fullscreen</span>
+    </button>
+    
+    <!-- Section 1: Title -->
+    <section class="section title-section" id="section1">
+        <div class="container">
+            <div class="title-content">
+                <h1 class="main-title">
+                    <span class="title-line">Teror di Layar Perak:</span>
+                    <span class="title-line">Menjelajahi Evolusi</span>
+                    <span class="title-line">Film Horor Indonesia</span>
+                </h1>
+            </div>
+            <div class="poster-showcase">
+                <div class="poster-container">
+                    <img src="assets/images/Poster Suzzana 01.jpg" alt="Poster Era Keemasan" class="poster-left">
+                    <img src="assets/images/Poster Film Dendam Pocong Mupeng.jpg" alt="Poster Era Mati Suri" class="poster-center">
+                    <img src="assets/images/Poster Film Pengabdi Setan 1.jpg" alt="Poster Era Kebangkitan" class="poster-right">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Indonesian Ghost Stars -->
+    <section class="section ghosts-section" id="section2">
+        <div class="container">
+            <h2 class="section-title">Bintang Utama Hantu Indonesia</h2>
+            <div class="ghosts-carousel">
+                <div class="ghosts-track">
+                    <!-- Original set -->
+                    <div class="ghost-card" data-ghost="pocong">
+                        <div class="ghost-image">
+                            <img src="assets/images/Pocong 01.jpg" alt="Pocong">
+                            <div class="ghost-overlay">
+                                <span class="ghost-name">Pocong</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ghost-card" data-ghost="kuntilanak">
+                        <div class="ghost-image">
+                            <img src="assets/images/Kuntilanak 01.png" alt="Kuntilanak">
+                            <div class="ghost-overlay">
+                                <span class="ghost-name">Kuntilanak</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ghost-card" data-ghost="tuyul">
+                        <div class="ghost-image">
+                            <img src="assets/images/Tuyul.png" alt="Tuyul">
+                            <div class="ghost-overlay">
+                                <span class="ghost-name">Tuyul</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ghost-card" data-ghost="genderuwo">
+                        <div class="ghost-image">
+                            <img src="assets/images/Genderuwo 01.png" alt="Genderuwo">
+                            <div class="ghost-overlay">
+                                <span class="ghost-name">Genderuwo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ghost-card" data-ghost="sundel-bolong">
+                        <div class="ghost-image">
+                            <img src="assets/images/Sundel Bolong 01.png" alt="Sundel Bolong">
+                            <div class="ghost-overlay">
+                                <span class="ghost-name">Sundel Bolong</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Duplicate set for seamless loop -->
+                    <div class="ghost-card" data-ghost="pocong">
+                        <div class="ghost-image">
+                            <img src="assets/images/Pocong 01.jpg" alt="Pocong">
+                            <div class="ghost-overlay">
+                                <span class="ghost-name">Pocong</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ghost-card" data-ghost="kuntilanak">
+                        <div class="ghost-image">
+                            <img src="assets/images/Kuntilanak 01.png" alt="Kuntilanak">
+                            <div class="ghost-overlay">
+                                <span class="ghost-name">Kuntilanak</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ghost-card" data-ghost="tuyul">
+                        <div class="ghost-image">
+                            <img src="assets/images/Tuyul.png" alt="Tuyul">
+                            <div class="ghost-overlay">
+                                <span class="ghost-name">Tuyul</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ghost-card" data-ghost="genderuwo">
+                        <div class="ghost-image">
+                            <img src="assets/images/Genderuwo 01.png" alt="Genderuwo">
+                            <div class="ghost-overlay">
+                                <span class="ghost-name">Genderuwo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ghost-card" data-ghost="sundel-bolong">
+                        <div class="ghost-image">
+                            <img src="assets/images/Sundel Bolong 01.png" alt="Sundel Bolong">
+                            <div class="ghost-overlay">
+                                <span class="ghost-name">Sundel Bolong</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ghost Details Section -->
+            <div class="ghost-details" id="ghostDetails">
+                <div class="ghost-detail-card">
+                    <!-- Navigation Arrow Left -->
+                    <button class="ghost-nav-arrow ghost-nav-prev" id="ghostNavPrev" title="Hantu Sebelumnya">
+                        <span class="arrow-icon">‹</span>
+                    </button>
+                    
+                    <div class="ghost-main-image">
+                        <img id="mainGhostImage" src="" alt="">
+                    </div>
+                    <div class="ghost-info">
+                        <h3 id="ghostTitle"></h3>
+                        <div class="ghost-description">
+                            <h4>Deskripsi</h4>
+                            <p id="ghostDescription"></p>
+                        </div>
+                        <div class="ghost-myth">
+                            <h4>Mitos Umum</h4>
+                            <p id="ghostMyth"></p>
+                        </div>
+                        <div class="ghost-potential">
+                            <h4>Potensi Film "Naik Kelas"</h4>
+                            <p id="ghostPotential"></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation Arrow Right -->
+                    <button class="ghost-nav-arrow ghost-nav-next" id="ghostNavNext" title="Hantu Selanjutnya">
+                        <span class="arrow-icon">›</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Cinematic Evolution Timeline -->
+    <section class="section eras-section" id="section3">
+        <div class="container">
+            <h2 class="section-title">Evolusi Terror: Tiga Era Krusial Horror Indonesia</h2>
+            
+            <!-- Luxury Timeline Navigation -->
+            <div class="cinema-timeline">
+                <div class="timeline-track"></div>
+                <div class="era-markers">
+                    <div class="era-marker active" data-era="golden">
+                        <div class="marker-dot"></div>
+                        <div class="marker-year">1970s-1990s</div>
+                        <div class="marker-label">Era Keemasan</div>
+                    </div>
+                    <div class="era-marker" data-era="dormant">
+                        <div class="marker-dot"></div>
+                        <div class="marker-year">1990s-2010s</div>
+                        <div class="marker-label">Era Mati Suri</div>
+                    </div>
+                    <div class="era-marker" data-era="revival">
+                        <div class="marker-dot"></div>
+                        <div class="marker-year">2017-Now</div>
+                        <div class="marker-label">Era Kebangkitan</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cinematic Era Display -->
+            <div class="cinema-stage">
+                <!-- Era Keemasan -->
+                <div class="era-showcase active" data-era="golden">
+                    <div class="era-header">
+                        <div class="era-title-block">
+                            <h3 class="era-title">Era Keemasan</h3>
+                            <p class="era-subtitle">Periode kejayaan film horor Indonesia dengan produksi massal dan dominasi box office yang luar biasa.</p>
+                        </div>
+                        <div class="era-stats">
+                            <div class="stat-card">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">Film/Tahun per Sutradara</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Film/Tahun per Aktor</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="poster-marquee">
+                        <div class="marquee-track">
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Keemasan/Poster Film Era Keemasan  01.jpg" alt="Era Keemasan Film 1">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Keemasan/Poster Film Era Keemasan  02.jpg" alt="Era Keemasan Film 2">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Keemasan/Poster Film Era Keemasan  03.jpg" alt="Era Keemasan Film 3">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Keemasan/Poster Film Era Keemasan  04.jpg" alt="Era Keemasan Film 4">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Keemasan/Poster Film Era Keemasan  05.jpg" alt="Era Keemasan Film 5">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Keemasan/Poster Film Era Keemasan  06.jpg" alt="Era Keemasan Film 6">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Keemasan/Poster Film Era Keemasan  07.jpg" alt="Era Keemasan Film 7">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="era-highlights">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🏆</div>
+                            <h4>Dominasi Box Office</h4>
+                            <p>Film-film horor Suzzanna menjadi film terlaris pada masanya</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🎭</div>
+                            <h4>Dampak Budaya</h4>
+                            <p>Melahirkan ikon abadi seperti Suzzanna sebagai Ratu Horror Indonesia</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🎪</div>
+                            <h4>Pengakuan Kualitas</h4>
+                            <p>Mendapat pengakuan kualitas di berbagai festival film</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Era Mati Suri -->
+                <div class="era-showcase" data-era="dormant">
+                    <div class="era-header">
+                        <div class="era-title-block">
+                            <h3 class="era-title">Era Mati Suri</h3>
+                            <p class="era-subtitle">Masa surut industri film horor Indonesia dengan degradasi kualitas dan kehilangan identitas.</p>
+                        </div>
+                        <div class="era-anomaly-highlight">
+                            <h4>Film Anomali yang Memberi Harapan:</h4>
+                            <div class="anomaly-badges">
+                                <span class="anomaly-badge">Jelangkung (2001)</span>
+                                <span class="anomaly-badge">Keramat (2009)</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="poster-marquee">
+                        <div class="marquee-track">
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Mati Suri/Poster Film Era Mati Suri 01.jpg" alt="Era Mati Suri Film 1">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Mati Suri/Poster Film Era Mati Suri 02.jpg" alt="Era Mati Suri Film 2">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Mati Suri/Poster Film Era Mati Suri 03.jpg" alt="Era Mati Suri Film 3">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Mati Suri/Poster Film Era Mati Suri 04.jpg" alt="Era Mati Suri Film 4">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Mati Suri/Poster Film Era Mati Suri 05.jpg" alt="Era Mati Suri Film 5">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Mati Suri/Poster Film Era Mati Suri 06.jpg" alt="Era Mati Suri Film 6">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Mati Suri/Poster Film Era Mati Suri 07.jpg" alt="Era Mati Suri Film 7">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Mati Suri/Poster Film Era Mati Suri 08.jpg" alt="Era Mati Suri Film 8">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Mati Suri/Poster Film Era Mati Suri 09.jpg" alt="Era Mati Suri Film 9">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="era-highlights">
+                        <div class="highlight-card decline">
+                            <div class="highlight-icon">📉</div>
+                            <h4>Horror Esek-Esek</h4>
+                            <p>Munculnya subgenre horror dengan unsur erotis yang menurunkan kualitas</p>
+                        </div>
+                        <div class="highlight-card decline">
+                            <div class="highlight-icon">🎬</div>
+                            <h4>Kualitas Menurun</h4>
+                            <p>Standar produksi yang rendah dengan budget minimal</p>
+                        </div>
+                        <div class="highlight-card decline">
+                            <div class="highlight-icon">🔄</div>
+                            <h4>Formula Repetitif</h4>
+                            <p>Cerita dan konsep yang diulang-ulang tanpa inovasi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Era Kebangkitan -->
+                <div class="era-showcase" data-era="revival">
+                    <div class="era-header">
+                        <div class="era-title-block">
+                            <h3 class="era-title">Era Kebangkitan</h3>
+                            <p class="era-subtitle">Bangkitnya kembali film horor Indonesia dimulai dengan <strong>Pengabdi Setan (2017)</strong> karya Joko Anwar.</p>
+                        </div>
+                        <div class="era-stats">
+                            <div class="stat-card">
+                                <span class="stat-number">13</span>
+                                <span class="stat-label">Film Masterpiece</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">2017</span>
+                                <span class="stat-label">Tahun Kebangkitan</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="poster-marquee">
+                        <div class="marquee-track">
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 01.jpg" alt="Era Kebangkitan Film 1">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 02.jpg" alt="Era Kebangkitan Film 2">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 03.jpg" alt="Era Kebangkitan Film 3">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 04.jpg" alt="Era Kebangkitan Film 4">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 05.jpg" alt="Era Kebangkitan Film 5">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 06.jpg" alt="Era Kebangkitan Film 6">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 07.jpg" alt="Era Kebangkitan Film 7">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 08.jpg" alt="Era Kebangkitan Film 8">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 09.jpg" alt="Era Kebangkitan Film 9">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 10.jpg" alt="Era Kebangkitan Film 10">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 11.jpg" alt="Era Kebangkitan Film 11">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 12.jpg" alt="Era Kebangkitan Film 12">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                            <div class="poster-card">
+                                <img src="assets/Evolusi/Kebangkitan/Poster Era Kebangkitan 13.jpg" alt="Era Kebangkitan Film 13">
+                                <div class="poster-spotlight"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="era-highlights">
+                        <div class="highlight-card revival">
+                            <div class="highlight-icon">🎯</div>
+                            <h4>Kualitas Produksi Prioritas</h4>
+                            <p>Standar produksi tinggi dengan teknologi dan sinematografi modern</p>
+                        </div>
+                        <div class="highlight-card revival">
+                            <div class="highlight-icon">📊</div>
+                            <h4>Dominasi Box Office Kembali</h4>
+                            <p>Film horor Indonesia kembali merajai box office domestik</p>
+                        </div>
+                        <div class="highlight-card revival">
+                            <div class="highlight-icon">🌍</div>
+                            <h4>Pengakuan Internasional</h4>
+                            <p>Mendapat apresiasi dari festival film dan pasar internasional</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Perfect Horror Blueprint -->
+    <section class="section blueprint-section" id="section4">
+        <div class="container">
+            <h2 class="section-title">Blueprint Horror Sempurna</h2>
+            
+            <!-- Blueprint Architecture -->
+            <div class="blueprint-architecture">
+                <!-- Foundation Base -->
+                <div class="blueprint-foundation">
+                    <div class="foundation-header">
+                        <h3 class="foundation-title">Pondasi Utama</h3>
+                        <p class="foundation-subtitle">Base untuk Horror yang Otentik & Berkelanjutan</p>
+                    </div>
+                    <div class="foundation-elements">
+                        <div class="foundation-card">
+                            <div class="foundation-icon">🏛️</div>
+                            <h4>Ketakutan Kultural</h4>
+                            <span class="foundation-label">(The Cultural Fear)</span>
+                            <p>Memanfaatkan ketakutan yang berakar dalam budaya dan kepercayaan lokal Indonesia</p>
+                        </div>
+                        <div class="foundation-card">
+                            <div class="foundation-icon">🎣</div>
+                            <h4>Premis yang Jelas</h4>
+                            <span class="foundation-label">(The Hooking Premise)</span>
+                            <p>Konsep dasar cerita yang kuat dan mudah dipahami namun mengundang rasa penasaran</p>
+                        </div>
+                        <div class="foundation-card">
+                            <div class="foundation-icon">⚖️</div>
+                            <h4>Aturan Main Dunia Gaib</h4>
+                            <span class="foundation-label">(The World's Logic)</span>
+                            <p>Konsistensi dalam mengatur bagaimana elemen supernatural bekerja dalam cerita</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pillars Container -->
+                <div class="blueprint-pillars">
+                    <!-- Pillar 1: Artistic Execution -->
+                    <div class="blueprint-pillar pillar-artistic">
+                        <div class="pillar-header">
+                            <div class="pillar-icon">🎨</div>
+                            <h3 class="pillar-title">Pilar 1</h3>
+                            <h4 class="pillar-name">Eksekusi Artistik</h4>
+                        </div>
+                        <div class="pillar-elements">
+                            <div class="pillar-card">
+                                <div class="card-icon">📖</div>
+                                <h5>Penceritaan yang Cerdas</h5>
+                                <p>Narasi yang kompleks namun mudah diikuti dengan twist yang logis</p>
+                            </div>
+                            <div class="pillar-card">
+                                <div class="card-icon">🎬</div>
+                                <h5>Teror Audio-Visual yang Imersif</h5>
+                                <p>Sinematografi, sound design, dan visual effects yang menciptakan atmosfer mencekam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pillar 2: Business Strategy -->
+                    <div class="blueprint-pillar pillar-business">
+                        <div class="pillar-header">
+                            <div class="pillar-icon">💼</div>
+                            <h3 class="pillar-title">Pilar 2</h3>
+                            <h4 class="pillar-name">Strategi Bisnis</h4>
+                        </div>
+                        <div class="pillar-elements">
+                            <div class="pillar-card">
+                                <div class="card-icon">🪝</div>
+                                <h5>Menciptakan "Kait" Pemasaran</h5>
+                                <p>Elemen unik yang dapat menjadi bahan marketing sejak tahap pra-produksi</p>
+                            </div>
+                            <div class="pillar-card">
+                                <div class="card-icon">💬</div>
+                                <h5>Membangun Percakapan</h5>
+                                <p>Strategi engagement yang menciptakan buzz organik, bukan sekadar promosi</p>
+                            </div>
+                            <div class="pillar-card">
+                                <div class="card-icon">📅</div>
+                                <h5>Timing Rilis Strategis</h5>
+                                <p>Pemilihan waktu yang tepat dengan mempertimbangkan kompetisi dan momentum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Perfect Formula -->
+                <div class="blueprint-formula">
+                    <div class="formula-equation">
+                        <div class="formula-component foundation-comp">
+                            <span class="component-icon">🏛️</span>
+                            <span class="component-text">Horor Kultural<br><small>(Pondasi)</small></span>
+                        </div>
+                        <span class="formula-operator">+</span>
+                        <div class="formula-component artistic-comp">
+                            <span class="component-icon">🎨</span>
+                            <span class="component-text">Eksekusi Berkelas<br><small>(Pilar Artistik)</small></span>
+                        </div>
+                        <span class="formula-operator">+</span>
+                        <div class="formula-component business-comp">
+                            <span class="component-icon">💼</span>
+                            <span class="component-text">Pemasaran Jenius<br><small>(Pilar Bisnis)</small></span>
+                        </div>
+                        <span class="formula-equals">=</span>
+                        <div class="formula-result">
+                            <div class="result-icon">🏆</div>
+                            <div class="result-text">
+                                <strong>Film Horor Indonesia Sempurna</strong>
+                                <p>Yang Mampu Mendominasi Box Office & Meninggalkan Legacy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Trofeo Kehormatan Horor Indonesia -->
+    <section class="section trophy-section" id="section5">
+        <div class="container">
+            <h2 class="section-title">Trofeo Kehormatan Horor Indonesia</h2>
+            <p class="trophy-subtitle">Hall of Fame Legenda yang Mengukir Sejarah Teror Nusantara</p>
+            
+            <!-- Trophy Carousel -->
+            <div class="trophy-carousel">
+                <!-- Navigation Arrows -->
+                <button class="trophy-nav trophy-nav-prev" id="trophyNavPrev" title="Trofeo Sebelumnya">
+                    <span class="trophy-arrow">‹</span>
+                </button>
+                <button class="trophy-nav trophy-nav-next" id="trophyNavNext" title="Trofeo Selanjutnya">
+                    <span class="trophy-arrow">›</span>
+                </button>
+                
+                <!-- Trophy Display -->
+                <div class="trophy-display" id="trophyDisplay">
+                    <!-- Main Visual -->
+                    <div class="trophy-visual">
+                        <div class="trophy-image-container">
+                            <img id="trophyMainImage" src="" alt="" class="trophy-main-image">
+                            <div class="trophy-overlay">
+                                <div class="trophy-crown">👑</div>
+                                <h3 id="trophyTitle" class="trophy-title"></h3>
+                                <p id="trophyCategory" class="trophy-category"></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Achievement Cards -->
+                    <div class="trophy-achievements">
+                        <div class="achievement-cards" id="achievementCards">
+                            <!-- Achievement cards will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Trophy Indicators -->
+                <div class="trophy-indicators" id="trophyIndicators">
+                    <!-- Indicators will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Closing -->
+    <section class="section closing-section" id="section6">
+        <div class="container">
+            <div class="closing-content">
+                <h2 class="closing-title">Horror Indonesia: Warisan yang Terus Bergema</h2>
+                <p class="closing-text">
+                    Dari era keemasan Suzzana hingga fenomena KKN di Desa Penari, 
+                    film horor Indonesia telah membuktikan kemampuannya untuk terus 
+                    beradaptasi dan menciptakan teror yang relevan dengan zamannya.
+                </p>
+                <div class="closing-quote">
+                    <p>"Ketakutan terbesar adalah ketakutan terhadap yang tidak diketahui, 
+                    dan film horor Indonesia selalu berhasil menghadirkan misteri yang 
+                    menyentuh jiwa budaya kita."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
