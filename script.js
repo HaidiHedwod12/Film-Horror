@@ -181,37 +181,27 @@ document.addEventListener('DOMContentLoaded', function() {
         pocong: {
             name: "Pocong",
             image: "assets/images/Pocong 01.jpg",
-            description: "Hantu yang terbungkus kain kafan dengan wujud yang tidak dapat berjalan normal. Pocong adalah manifestasi dari roh yang belum dapat beristirahat dengan tenang karena ikatan kafan yang tidak dilepaskan setelah 40 hari kematian. Sosoknya yang melompat-lompat menciptakan ketakutan tersendiri bagi yang melihatnya.",
-            myth: "Menurut kepercayaan Jawa, pocong muncul karena simpul kain kafan tidak dibuka pada hari ke-40 setelah kematian. Dipercaya pocong akan terus menampakkan diri hingga simpul kafannya dilepaskan. Ada juga mitos bahwa pocong dapat memberikan nomor togel kepada orang yang berani bertemu dengannya di kuburan.",
-            potential: "Pocong memiliki potensi besar untuk film horor 'naik kelas' dengan mengeksplorasi aspek psikologis dari kematian yang tidak tuntas. Konsep modern bisa mengintegrasikan trauma keluarga yang ditinggalkan, dilema moral tentang melepaskan orang terkasih, dan konflik antara kepercayaan tradisional dengan dunia modern. Visual effects bisa dikembangkan untuk menampilkan transisi antara dunia nyata dan alam baka."
+            info: "• Muncul karena simpul kafan tidak dibuka hari ke-40\n• Dapat memberikan nomor togel di kuburan\n• Simbol kematian yang tidak tuntas\n• Trauma keluarga dan dilema melepaskan orang terkasih\n• Konflik tradisi vs modernitas\n• Visual effects transisi dunia nyata-alam baka"
         },
         kuntilanak: {
             name: "Kuntilanak", 
             image: "assets/images/Kuntilanak 01.png",
-            description: "Hantu wanita yang meninggal saat melahirkan dengan penampilan cantik dari depan namun mengerikan dari belakang. Kuntilanak dikenal dengan tangisan bayi yang menyayat hati dan aroma melati yang menyengat sebelum kemunculannya. Sosoknya yang cantik namun mematikan mencerminkan dualitas kehidupan dan kematian.",
-            myth: "Legenda mengatakan kuntilanak adalah roh wanita yang meninggal saat melahirkan dan tidak dapat melepaskan ikatan dengan dunia. Dipercaya dia mencari korban untuk menggantikan posisinya atau mencari bayi untuk diambil sebagai anaknya. Ada kepercayaan bahwa kuntilanak takut dengan benda tajam dan dapat dijinakkan dengan memasukkan paku ke lubang di tengkuk kepalanya.",
-            potential: "Kuntilanak cocok untuk film horor psikologis yang mengangkat tema motherhood dan trauma persalinan. Pendekatan modern bisa mengeksplorasi isu kesehatan mental pasca melahirkan, maternal horror, dan ekspektasi sosial terhadap perempuan sebagai ibu. Teknik sinematografi bisa bermain dengan kontras antara kecantikan dan horror, serta sound design yang memadukan tangisan bayi dengan elemen mencekam."
+            info: "• Roh wanita yang tidak bisa lepas dari dunia\n• Mencari korban pengganti atau bayi untuk diambil\n• Takut benda tajam, dijinakkan dengan paku di tengkuk\n• Tema motherhood dan trauma persalinan\n• Maternal horror dan ekspektasi sosial perempuan\n• Kontras kecantikan vs horror"
         },
         tuyul: {
             name: "Tuyul",
             image: "assets/images/Tuyul.png", 
-            description: "Makhluk kecil berbentuk anak gundul yang dipercaya dapat mencuri uang. Tuyul adalah manifestasi dari spiritual ekonomi dalam kepercayaan masyarakat Indonesia, dimana kemiskinan dan kekayaan mendadak sering dikaitkan dengan bantuan makhluk halus. Sosoknya yang polos namun nakal mencerminkan moral ambiguitas dalam pencarian rezeki.",
-            myth: "Dipercaya tuyul adalah anak kecil yang meninggal sebelum waktunya dan dijadikan pelayan oleh dukun. Tuyul dapat mencuri uang dan barang berharga untuk majikannya, namun harus dibayar dengan sesajen dan mainan. Ada kepercayaan bahwa tuyul takut dengan bawang putih dan dapat ditangkap menggunakan cermin.",
-            potential: "Tuyul bisa dikembangkan menjadi horror komedi atau thriller sosial yang mengkritik budaya instant gratification dan korupsi. Film bisa mengeksplorasi konsekuensi moral dari 'jalan pintas' dalam mencari kekayaan, hubungan antara kemiskinan dengan spiritual, dan ironi tentang bagaimana orang rela mengorbankan moral untuk uang. Approach visual bisa menggunakan kontras antara kelucuan dan horror untuk menciptakan uncanny valley effect."
+            info: "• Anak meninggal sebelum waktunya, dijadikan pelayan dukun\n• Dibayar dengan sesajen dan mainan\n• Takut bawang putih, ditangkap dengan cermin\n• Horror komedi yang mengkritik instant gratification\n• Tema moral 'jalan pintas' mencari kekayaan\n• Kontras kelucuan vs horror"
         },
         genderuwo: {
             name: "Genderuwo",
             image: "assets/images/Genderuwo 01.png",
-            description: "Makhluk astral berpostur besar dan berbulu lebat dengan kekuatan supernatural yang menakutkan. Genderuwo dikenal sebagai penggoda yang dapat berubah wujud menjadi manusia, terutama untuk menggoda wanita. Kehadirannya sering dikaitkan dengan tempat-tempat angker dan hutan lebat di Jawa.",
-            myth: "Menurut kepercayaan Jawa, genderuwo adalah jin yang menjelma dalam bentuk manusia berbulu. Dipercaya dapat menggoda dan bahkan menikahi wanita manusia, serta memiliki kekuatan untuk mempengaruhi pikiran. Genderuwo konon bersarang di pohon-pohon besar dan tempat gelap, serta dapat memberikan kekayaan namun dengan konsekuensi yang mengerikan.",
-            potential: "Genderuwo berpotensi menjadi psychological horror yang mengeksplorasi tema maskulinitas toksik, consent, dan female empowerment. Film modern bisa menggunakan sosok genderuwo sebagai metafora untuk predator seksual dan manipulasi psikologis. Pengembangan karakter bisa fokus pada perjuangan perempuan melawan sosok manipulatif, dengan visual yang bermain antara pesona dan ancaman, serta sound design yang menekankan aspek psikologis daripada sekedar jump scare."
+            info: "• Jin berbentuk manusia berbulu dari kepercayaan Jawa\n• Dapat menikahi wanita dan mempengaruhi pikiran\n• Bersarang di pohon besar, memberikan kekayaan dengan konsekuensi\n• Psychological horror tentang maskulinitas toksik\n• Metafora predator seksual dan manipulasi\n• Female empowerment melawan manipulasi"
         },
         "sundel-bolong": {
             name: "Sundel Bolong",
             image: "assets/images/Sundel Bolong 01.png",
-            description: "Hantu wanita cantik dengan lubang besar di punggungnya yang merupakan hasil dari kutukan atau kematian yang tragis. Sundel Bolong menggabungkan elemen godaan dan horror dalam satu sosok, dimana kecantikannya dari depan kontras dengan kengerian di bagian belakangnya. Sosoknya melambangkan deception dan bahaya tersembunyi.",
-            myth: "Legenda menyebutkan Sundel Bolong adalah wanita yang dikutuk karena perbuatan dosa atau mati dalam keadaan hamil di luar nikah. Lubang di punggungnya konon adalah jalan masuk setan atau akibat dari siksaan di alam baka. Dipercaya dia menggoda pria dengan kecantikannya, namun akan membunuh mereka setelah rahasia mengerikan di punggungnya terbongkar.",
-            potential: "Sundel Bolong ideal untuk horror film yang mengangkat tema slut-shaming, victim-blaming, dan double standards dalam masyarakat terhadap sexualitas perempuan. Pendekatan modern bisa mengeksplorasi bagaimana stigma sosial dapat 'melubangi jiwa' seseorang. Film bisa menggunakan body horror dan psychological thriller elements, dengan fokus pada kritik sosial tentang judgmental society dan dampak psikologis dari social ostracism."
+            info: "• Wanita dikutuk karena dosa atau hamil di luar nikah\n• Lubang punggung sebagai jalan masuk setan\n• Menggoda pria lalu membunuh setelah rahasia terbongkar\n• Tema slut-shaming dan victim-blaming\n• Stigma sosial yang 'melubangi jiwa'\n• Body horror dengan kritik sosial"
         }
     };
 
@@ -229,20 +219,10 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('mainGhostImage').src = ghost.image;
         document.getElementById('mainGhostImage').alt = ghost.name;
         document.getElementById('ghostTitle').textContent = ghost.name;
-        document.getElementById('ghostDescription').textContent = ghost.description;
-        document.getElementById('ghostMyth').textContent = ghost.myth;
-        document.getElementById('ghostPotential').textContent = ghost.potential;
+        document.getElementById('ghostInfo').innerHTML = ghost.info.replace(/\n/g, '<br>');
         
         // Show ghost details with animation
         ghostDetails.classList.add('active');
-        
-        // Scroll to ghost details
-        setTimeout(() => {
-            ghostDetails.scrollIntoView({ 
-                behavior: 'smooth', 
-                block: 'center' 
-            });
-        }, 300);
         
         // Add click outside to close functionality
         document.addEventListener('click', function closeGhostDetails(e) {
@@ -731,6 +711,71 @@ document.addEventListener('DOMContentLoaded', function() {
         if (nextBtn) {
             nextBtn.addEventListener('click', () => navigateTrophy('next'));
         }
+        
+        // Enhanced keyboard navigation for fullscreen and non-fullscreen modes
+        document.addEventListener('keydown', function(e) {
+            if (document.body.classList.contains('fullscreen-mode')) {
+                // Fullscreen navigation - determine which section is active
+                const sections = ['section2', 'section3', 'section4', 'section5'];
+                let activeSection = null;
+                let minDistance = Infinity;
+                
+                sections.forEach(sectionId => {
+                    const section = document.getElementById(sectionId);
+                    if (section) {
+                        const rect = section.getBoundingClientRect();
+                        const distance = Math.abs(rect.top);
+                        if (distance < minDistance && rect.top < window.innerHeight / 2) {
+                            minDistance = distance;
+                            activeSection = sectionId;
+                        }
+                    }
+                });
+                
+                // Navigate based on active section
+                if (activeSection === 'section2' && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) {
+                    // Ghost section
+                    navigateGhost(e.key === 'ArrowLeft' ? 'prev' : 'next');
+                    e.preventDefault();
+                } else if (activeSection === 'section3' && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) {
+                    // Evolution section
+                    navigateEvolutionSlide(e.key === 'ArrowLeft' ? 'prev' : 'next');
+                    e.preventDefault();
+                } else if (activeSection === 'section4' && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) {
+                    // Blueprint section
+                    navigateBlueprint(e.key === 'ArrowLeft' ? 'prev' : 'next');
+                    e.preventDefault();
+                } else if (activeSection === 'section5' && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) {
+                    // Trophy section
+                    navigateTrophy(e.key === 'ArrowLeft' ? 'prev' : 'next');
+                    e.preventDefault();
+                }
+            } else {
+                // Non-fullscreen navigation
+                const trophySection = document.getElementById('section5');
+                const ghostSection = document.getElementById('section2');
+                const eraSection = document.getElementById('section3');
+                
+                // Get section positions
+                const trophyRect = trophySection ? trophySection.getBoundingClientRect() : null;
+                const ghostRect = ghostSection ? ghostSection.getBoundingClientRect() : null;
+                const eraRect = eraSection ? eraSection.getBoundingClientRect() : null;
+                
+                // Check visibility
+                const isTrophyVisible = trophyRect && trophyRect.top < window.innerHeight && trophyRect.bottom > 0;
+                const isGhostVisible = ghostRect && ghostRect.top < window.innerHeight && ghostRect.bottom > 0;
+                const isEraVisible = eraRect && eraRect.top < window.innerHeight && eraRect.bottom > 0;
+                
+                if (isTrophyVisible && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) {
+                    navigateTrophy(e.key === 'ArrowLeft' ? 'prev' : 'next');
+                    e.preventDefault();
+                } else if (isGhostVisible && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) {
+                    navigateGhost(e.key === 'ArrowLeft' ? 'prev' : 'next');
+                    e.preventDefault();
+                }
+                // Era navigation is handled by the era system itself
+            }
+        });
     }
 
     // Create trophy indicators
@@ -788,6 +833,12 @@ document.addEventListener('DOMContentLoaded', function() {
         if (title) title.textContent = trophy.title;
         if (category) category.textContent = trophy.category;
 
+        // Update fullscreen trophy info
+        const titleFs = document.getElementById('trophyTitleFullscreen');
+        const categoryFs = document.getElementById('trophyCategoryFullscreen');
+        if (titleFs) titleFs.textContent = trophy.title;
+        if (categoryFs) categoryFs.textContent = trophy.category;
+
         // Update achievement cards
         updateAchievementCards(trophy.achievements);
 
@@ -840,5 +891,284 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize trophy system after DOM is loaded
     initializeTrophySystem();
     
+    // Blueprint Slide System
+    const blueprintSlides = ['intro', 'foundation', 'artistic', 'business', 'formula'];
+    let currentBlueprintIndex = 0;
+    
+    // Initialize blueprint slide system
+    function initializeBlueprintSystem() {
+        const prevBtn = document.getElementById('blueprintNavPrev');
+        const nextBtn = document.getElementById('blueprintNavNext');
+        
+        if (prevBtn) {
+            prevBtn.addEventListener('click', () => navigateBlueprint('prev'));
+        }
+        
+        if (nextBtn) {
+            nextBtn.addEventListener('click', () => navigateBlueprint('next'));
+        }
+        
+        // Add click navigation for intro cards
+        const introCards = document.querySelectorAll('.blueprint-intro-card');
+        introCards.forEach(card => {
+            card.addEventListener('click', function() {
+                const targetSlide = this.dataset.target;
+                const targetIndex = blueprintSlides.indexOf(targetSlide);
+                if (targetIndex !== -1) {
+                    currentBlueprintIndex = targetIndex;
+                    showBlueprintSlide(targetSlide);
+                }
+            });
+        });
+        
+        // Show first slide
+        showBlueprintSlide(blueprintSlides[currentBlueprintIndex]);
+    }
+    
+    // Navigate blueprint slides
+    function navigateBlueprint(direction) {
+        if (direction === 'next') {
+            currentBlueprintIndex = (currentBlueprintIndex + 1) % blueprintSlides.length;
+        } else {
+            currentBlueprintIndex = (currentBlueprintIndex - 1 + blueprintSlides.length) % blueprintSlides.length;
+        }
+        
+        showBlueprintSlide(blueprintSlides[currentBlueprintIndex]);
+    }
+    
+    // Show specific blueprint slide
+    function showBlueprintSlide(slideId) {
+        const slides = document.querySelectorAll('.blueprint-slide');
+        
+        slides.forEach(slide => {
+            if (slide.dataset.slide === slideId) {
+                slide.classList.add('active');
+            } else {
+                slide.classList.remove('active');
+            }
+        });
+    }
+    
+    // Initialize blueprint system
+    initializeBlueprintSystem();
+    
+    // Era Slides System (4 slides)
+    function initializeEraSystem() {
+        let currentSlide = 1; // Start with slide 1
+        const totalSlides = 4;
+        
+        function showSlide(slideNumber) {
+            // Remove active class from all slides
+            document.querySelectorAll('.era-slide').forEach(slide => {
+                slide.classList.remove('active');
+            });
+            
+            // Add active class to target slide
+            const targetSlide = document.getElementById(`slide${slideNumber}`);
+            if (targetSlide) {
+                targetSlide.classList.add('active');
+            }
+            
+            currentSlide = slideNumber;
+            console.log(`Showing slide: ${slideNumber}`);
+        }
+        
+        function nextSlide() {
+            const nextSlideNum = currentSlide >= totalSlides ? 1 : currentSlide + 1;
+            showSlide(nextSlideNum);
+        }
+        
+        function prevSlide() {
+            const prevSlideNum = currentSlide <= 1 ? totalSlides : currentSlide - 1;
+            showSlide(prevSlideNum);
+        }
+        
+        // Navigation button listeners
+        const eraNavPrev = document.getElementById('eraNavPrev');
+        const eraNavNext = document.getElementById('eraNavNext');
+        
+        if (eraNavPrev) {
+            eraNavPrev.addEventListener('click', prevSlide);
+        }
+        
+        if (eraNavNext) {
+            eraNavNext.addEventListener('click', nextSlide);
+        }
+        
+        // Era card click handlers
+        document.addEventListener('click', function(e) {
+            if (e.target.closest('.era-card')) {
+                const card = e.target.closest('.era-card');
+                const targetSlide = card.getAttribute('data-slide');
+                if (targetSlide) {
+                    showSlide(parseInt(targetSlide));
+                }
+            }
+        });
+        
+        // Keyboard navigation for era slides
+        document.addEventListener('keydown', function(e) {
+            const eraSection = document.getElementById('section3');
+            if (!eraSection) return;
+            
+            const eraRect = eraSection.getBoundingClientRect();
+            const isEraVisible = eraRect.top < window.innerHeight && eraRect.bottom > 0;
+            
+            // Handle both fullscreen and non-fullscreen modes
+            if (isEraVisible) {
+                // In fullscreen mode, check if era section is the active section
+                if (document.body.classList.contains('fullscreen-mode')) {
+                    const distance = Math.abs(eraRect.top);
+                    if (distance < window.innerHeight / 4) { // Era section is active
+                        if (e.key === 'ArrowLeft') {
+                            prevSlide();
+                            e.preventDefault();
+                        } else if (e.key === 'ArrowRight') {
+                            nextSlide();
+                            e.preventDefault();
+                        } else if (e.key === 'Home') {
+                            showSlide(1);
+                            e.preventDefault();
+                        }
+                    }
+                } else {
+                    // Non-fullscreen mode
+                    if (e.key === 'ArrowLeft') {
+                        prevSlide();
+                        e.preventDefault();
+                    } else if (e.key === 'ArrowRight') {
+                        nextSlide();
+                        e.preventDefault();
+                    } else if (e.key === 'Home') {
+                        showSlide(1);
+                        e.preventDefault();
+                    }
+                }
+            }
+        });
+        
+        // Initialize with slide 1
+        showSlide(1);
+        
+        console.log('Era system initialized with 4-slide structure');
+    }
+    
+    // Initialize era system
+    initializeEraSystem();
+    
+    // Initialize Era Keemasan poster marquee
+    function initializeEraKeemasanCarousel() {
+        const marqueeTrack = document.querySelector('#slide2 .marquee-track');
+        if (!marqueeTrack) return;
+        
+        // Pause animation on hover
+        const marquee = document.querySelector('#slide2 .era-poster-marquee');
+        if (marquee) {
+            marquee.addEventListener('mouseenter', () => {
+                marqueeTrack.style.animationPlayState = 'paused';
+            });
+            
+            marquee.addEventListener('mouseleave', () => {
+                marqueeTrack.style.animationPlayState = 'running';
+            });
+        }
+    }
+    
+    // Initialize poster carousel
+    initializeEraKeemasanCarousel();
+    
+    // Debug: Check if era system is working
+    console.log('Era slides found:', document.querySelectorAll('.era-slide').length);
+    console.log('Era container:', document.querySelector('.era-container'));
+    console.log('Era navigation buttons:', document.querySelectorAll('.era-nav-btn').length);
+    
     console.log('Horror presentation initialized successfully!');
+
+    // Section 3: Evolution Timeline Functionality
+    initEvolutionTimeline();
 });
+
+// Evolution Timeline Functions
+function initEvolutionTimeline() {
+    const evolutionNavPrev = document.getElementById('evolutionNavPrev');
+    const evolutionNavNext = document.getElementById('evolutionNavNext');
+    const slides = document.querySelectorAll('.evolution-slide');
+    const indicators = document.querySelectorAll('.indicator');
+    let currentSlide = 1;
+
+    console.log('Evolution timeline initialized with', slides.length, 'slides');
+
+    // Navigation button event listeners
+    if (evolutionNavPrev) {
+        evolutionNavPrev.addEventListener('click', () => {
+            navigateEvolutionSlide('prev');
+        });
+    }
+
+    if (evolutionNavNext) {
+        evolutionNavNext.addEventListener('click', () => {
+            navigateEvolutionSlide('next');
+        });
+    }
+
+    // Indicator event listeners
+    indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+            goToEvolutionSlide(index + 1);
+        });
+    });
+
+    // Era card click listeners
+    const eraCards = document.querySelectorAll('.era-card');
+    eraCards.forEach((card, index) => {
+        card.addEventListener('click', () => {
+            // Navigate to corresponding detail slide (2, 3, 4)
+            goToEvolutionSlide(index + 2);
+        });
+    });
+}
+
+function navigateEvolutionSlide(direction) {
+    const slides = document.querySelectorAll('.evolution-slide');
+    const totalSlides = slides.length;
+    let currentSlide = getCurrentEvolutionSlide();
+
+    if (direction === 'next') {
+        currentSlide = currentSlide < totalSlides ? currentSlide + 1 : 1;
+    } else {
+        currentSlide = currentSlide > 1 ? currentSlide - 1 : totalSlides;
+    }
+
+    goToEvolutionSlide(currentSlide);
+}
+
+function goToEvolutionSlide(slideNumber) {
+    const slides = document.querySelectorAll('.evolution-slide');
+    const indicators = document.querySelectorAll('.indicator');
+
+    // Remove active class from all slides and indicators
+    slides.forEach(slide => slide.classList.remove('active'));
+    indicators.forEach(indicator => indicator.classList.remove('active'));
+
+    // Add active class to target slide and indicator
+    const targetSlide = document.querySelector(`.evolution-slide[data-slide="${slideNumber}"]`);
+    const targetIndicator = document.querySelector(`.indicator[data-slide="${slideNumber}"]`);
+
+    if (targetSlide) {
+        targetSlide.classList.add('active');
+    }
+
+    if (targetIndicator) {
+        targetIndicator.classList.add('active');
+    }
+
+    console.log('Navigated to evolution slide:', slideNumber);
+}
+
+function getCurrentEvolutionSlide() {
+    const activeSlide = document.querySelector('.evolution-slide.active');
+    if (activeSlide) {
+        return parseInt(activeSlide.dataset.slide);
+    }
+    return 1;
+}
