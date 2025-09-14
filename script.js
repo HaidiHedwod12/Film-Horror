@@ -181,27 +181,27 @@ document.addEventListener('DOMContentLoaded', function() {
         pocong: {
             name: "Pocong",
             image: "assets/images/Pocong 01.jpg",
-            info: "• Muncul karena simpul kafan tidak dibuka hari ke-40\n• Dapat memberikan nomor togel di kuburan\n• Simbol kematian yang tidak tuntas\n• Trauma keluarga dan dilema melepaskan orang terkasih\n• Konflik tradisi vs modernitas\n• Visual effects transisi dunia nyata-alam baka"
+            info: "• Muncul karena simpul kafan tidak dibuka \n• Meminta tolong, bukan murni jahat\n• Simbol kematian yang tidak tuntas\n• Keterbatasannya menjadi kekuatan terornya\n• Memiliki kelebihan dalam Teror Auditif"
         },
         kuntilanak: {
             name: "Kuntilanak", 
             image: "assets/images/Kuntilanak 01.png",
-            info: "• Roh wanita yang tidak bisa lepas dari dunia\n• Mencari korban pengganti atau bayi untuk diambil\n• Takut benda tajam, dijinakkan dengan paku di tengkuk\n• Tema motherhood dan trauma persalinan\n• Maternal horror dan ekspektasi sosial perempuan\n• Kontras kecantikan vs horror"
+            info: "• Meninggal dalam keadaan hamil atau saat melahirkan\n• Elemen anak yang tak pernah terlahir\n• Takut benda tajam, dijinakkan dengan paku di tengkuk\n• Memiliki kelebihan dualitas wujud, suara, dan aroma\n• Tragedinya sebagai seorang perempuan dan ibu"
         },
         tuyul: {
             name: "Tuyul",
             image: "assets/images/Tuyul.png", 
-            info: "• Anak meninggal sebelum waktunya, dijadikan pelayan dukun\n• Dibayar dengan sesajen dan mainan\n• Takut bawang putih, ditangkap dengan cermin\n• Horror komedi yang mengkritik instant gratification\n• Tema moral 'jalan pintas' mencari kekayaan\n• Kontras kelucuan vs horror"
+            info: "• Anak meninggal sebelum waktunya, dijadikan peliharaan oleh manusia\n• Wujudnya selalu seperti anak kecil atau orok gundul\n• Mudah dialihkan seperti dengan yuyu atau kacang hijau\n• Adanya 'Imbalan' berupa hubungan parasit\n• Tema moral 'jalan pintas' mencari kekayaan"
         },
         genderuwo: {
             name: "Genderuwo",
             image: "assets/images/Genderuwo 01.png",
-            info: "• Jin berbentuk manusia berbulu dari kepercayaan Jawa\n• Dapat menikahi wanita dan mempengaruhi pikiran\n• Bersarang di pohon besar, memberikan kekayaan dengan konsekuensi\n• Psychological horror tentang maskulinitas toksik\n• Metafora predator seksual dan manipulasi\n• Female empowerment melawan manipulasi"
+            info: "• Jin berbentuk manusia berbulu lebat\n• Dapat menikahi wanita dan mempengaruhi pikiran\n• Iseng dan bernafsu\n• Psychological horror"
         },
         "sundel-bolong": {
             name: "Sundel Bolong",
             image: "assets/images/Sundel Bolong 01.png",
-            info: "• Wanita dikutuk karena dosa atau hamil di luar nikah\n• Lubang punggung sebagai jalan masuk setan\n• Menggoda pria lalu membunuh setelah rahasia terbongkar\n• Tema slut-shaming dan victim-blaming\n• Stigma sosial yang 'melubangi jiwa'\n• Body horror dengan kritik sosial"
+            info: "• Wanita yang diperkosa, hamil, lalu meninggal secara tragis\n• Lubang punggung sebagai jalan melahirkan anaknya dari punggung saat berada di dalam kubur\n• Dualitas wujud penggoda\n• Motif utama jelas balas dendam\n• Body horror dengan kritik sosial"
         }
     };
 
